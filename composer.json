@@ -1,0 +1,38 @@
+{
+  "name": "aestron/aestron-openapi-sdk",
+  "description": "Aestron openapi sdk for PHP - Use Aestron openapi sdk client in your PHP project",
+  "keywords": [
+    "sdk",
+    "Aestron",
+    "library",
+    "client"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/keponC/aestron-openapi-sdk-php",
+    "issues": "https://github.com/keponC/aestron-openapi-sdk-php/issues"
+  },
+  "require": {
+    "php": ">=5.5",
+    "ext-openssl": "*",
+    "guzzlehttp/guzzle": "^6.0"
+  },
+  "require-dev": {
+  },
+  "suggest": {
+  },
+  "autoload": {
+    "psr-4": {
+      "AestronSdk\\": "src"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts-descriptions": {
+  }
+}

@@ -14,7 +14,7 @@ class SmsClient
      * sms client host
      * @var string
      */
-    protected static $host = 'https://sms.bigo.sg/';
+    protected static $host = 'https://smsapi.aestron.net/';
 
     /**
      * http timeOut
